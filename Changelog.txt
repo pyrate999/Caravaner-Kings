@@ -1,0 +1,4 @@
+Please write any changes you make here. Helps keep things organized.
+
+Pyrate:
+Added folders, catholic religion code, base game characters, and some base game files at the bottom of common.
