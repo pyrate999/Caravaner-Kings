@@ -1,1 +1,1 @@
-Go ahead and do whatever needs to be done. If a folder or file is missing or is needed, make it yourself or steal it from the base files. Remember to write things down in the changelog in case someone breaks something.
+Go ahead and do whatever needs to be done. If a folder or file is missing or is needed, make it yourself or steal it from the base files. Make sure to write down your edits when you make them, prevents a lot of pain with accidental incompatability.
