@@ -1,0 +1,29 @@
+bos = {
+    graphical_cultures = { westerngfx }
+    
+      brotherhood = { 
+        graphical_culture = white_pacificgfx
+        
+        color = { 0.8 0.2 0.2 }
+        
+        male_names = {
+           Albert Allen Alexander_Alex Andrew Anthony_Tony Anselm Arnold Arthur_Art Artoro Ashur Bael Bishop Brandis Brenden Cade Caden Christopher_Chris Church Clark Colvin Conard Curtis David Dan_Daniel Danse Darrel Dawson David Dennis Dillon Ed_Edgar Eddie_Edward Elijah Farli Finley Galahad Garl Gavil Glade Gunther Gustofer Harry Henry Hernandez Hugh Ian Irving Irwin Ishmael Jacob James Jerry John Jon_Jonathan José Joseph Joshua Keane Kedrick Kenji Killian Kodiak Kyle Larry Lars Launcelot Lazarus Lorenzo Luke Lyle Jacoren Jarvis John Mark_Marcus Matiz Matthew_Matt Max Michael_Mike Nathan Neal Nolan Owyn Patriarcus Patrocolus Paul Phil Platner Reginald Rhombus Rhys_Reese Rico Robert_Rob_Bob Robin Roger Sato Saul Seth Stein Talus Theis Thomas_Tom Todd Tristan Tycho Victor Vinnie Warwick_Worwick Bill_William
+        }
+        female_names = {
+            Abby_Abigail Adela Adelaide Agatha Alice Alya Alyssa Amice Anne Artemis Ashley Aubrey Aveline Beatrice Catherine Cecilia Cindy Diana Elizabeth Emily Gwen Emma Hannah Haylen Isabella Jen_Jennifer Jess_Jessica Katja Kate Katelyn_Catelyn Katrina Kodiak Linda Lisa Lorri Lucia_Lucy Marie_Mary Marcelle Melissa Mia Morgan Natalia Olin Porter Quintana Rachael Reddin Rhys Robin Samantha Sarah Sinthia_Synthia Sherry Sophia Soto Sydney Susan Tara Teagan Theresa Veronica Victoria Vree Warwick_Worwick
+        }
+        from_dynasty_prefix = "of "
+        
+        modifier = bos_culture_modifier
+	allow_looting = yes
+        # Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+        pat_grf_name_chance = 30
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        
+        # Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+        pat_grm_name_chance = 20
+        mat_grm_name_chance = 40
+        mother_name_chance = 5
+    }
+}
