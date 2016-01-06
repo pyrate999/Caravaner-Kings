@@ -1,0 +1,47 @@
+bos = {
+	has_coa_on_barony_only =yes
+	graphical_culture = westerngfx
+	playable = yes
+	
+	steel = {
+		grapical_culture = westerngfx
+
+		icon = #whatever it needs to be
+		color = {0.56 0.55 0.63}
+
+		scripture_name = THE_CODEX
+		god_names = {GOD_STEEL GOD_MAXSON}
+		evil_god_names = {IRRESPONSIBILITY}
+		piety_name = HONOR
+		priest_title = SCRIBE
+		investiture = yes
+		can_excommunicate = yes
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion #this only works on other BOS, it turns out. Could be useful, though.
+		can_hold_temples = yes
+		priests_can_marry = yes
+		feminist = yes
+		allow_looting = yes #Possibly to represent taking tech from wastelanders.
+		female_temple_holders = yes
+		religious_clothing_head = #whatever scribe gear is
+		religious_clothing_head = #whatever scribe gear is
+		has_heir_designation = yes #Not sure about this. Does the BOS use heir designation?
+		defensive_attrition = yes #The BOS doubtlessly strike out from hundreds of hidden bunkers whenever they are invaded
+		#Unit modifiers to represent their PA and weapons. Could give them advanced tech instead.
+		unit_modifier = {
+			levy_size = -1
+			heavy_infantry_offensive = 1
+			heavy_infantry_defensive = 1
+			heavy_infantry_morale = 0.1
+			light_infantry_offensive = 1
+			light_infantry_defensive = 0.2
+			light_infantry_morale = 0.1
+			archers_offensive = 1
+			archers_defensive = 0.2
+			garrison_size = -0.5
+			siege_speed = 0.3
+			land_organisation = 0.21
+		}
+		character_modifier = { martial = 2 learning = 1 } #For their upbringing. Probably a better way.
+		attacking_same_religion_piety_loss = yes #BOS fighting BOS is frowned upon
+}
