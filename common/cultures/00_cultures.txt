@@ -1,29 +1,323 @@
+#For names, use in-game names before you make up your own. Just keep in mind that many are nicknames or shortened and as such should not be that.
 bos = {
-    graphical_cultures = { westerngfx }
+	graphical_cultures = { westerngfx }
     
-      brotherhood = { 
-        graphical_culture = westerngfx
+    	brotherhood = { 
+		graphical_culture = westerngfx
+		color = { 0.8 0.2 0.2 }
+		male_names = {
+			Albert Allen Alexander_Alex Andrew Anthony_Tony Anselm Arnold Arthur_Art Artoro Ashur Bael Bishop Brandis Brenden Cade Caden Christopher_Chris Church Clark Colvin Conard Curtis David Dan_Daniel Danse Darrel Dawson David Dennis Dillon Ed_Edgar Eddie_Edward Elijah Farli Finley Galahad Garl Gavil Glade Gunther Gustofer Harry Henry Hernandez Hugh Ian Irving Irwin Ishmael Jacob James Jerry John Jon_Jonathan José Joseph Joshua Keane Kedrick Kenji Killian Kodiak Kyle Larry Lars Launcelot Lazarus Lorenzo Luke Lyle Jacoren Jarvis John Mark_Marcus Matiz Matthew_Matt Max Michael_Mike Nathan Neal Nolan Owyn Patriarcus Patrocolus Paul Phil Platner Reginald Rhombus Rhys_Reese Rico Robert_Rob_Bob Robin Roger Sato Saul Seth Stein Talus Theis Thomas_Tom Todd Tristan Tycho Victor Vinnie Warwick_Worwick Bill_William
+	}
+		female_names = {
+			Abby_Abigail Adela Adelaide Agatha Alice Alya Alyssa Amice Anne Artemis Ashley Aubrey Aveline Beatrice 		Catherine Cecilia Cindy Diana Elizabeth Emily Gwen Emma Hannah Haylen Isabella Jen_Jennifer Jess_Jessica Katja Kate Katelyn_Catelyn Katrina Kodiak Linda Lisa Lorri Lucia_Lucy Marie_Mary Marcelle Melissa Mia Morgan Natalia Olin Porter Quintana Rachael Reddin Rhys Robin Samantha Sarah Sinthia_Synthia Sherry Sophia Soto Sydney Susan Tara Teagan Theresa Veronica Victoria Vree Warwick_Worwick
+		}
+		from_dynasty_prefix = "of "
         
-        color = { 0.8 0.2 0.2 }
+		modifier = bos_culture_modifier #Modifier to represent the advanced tech used by the BOS
+		allow_looting = yes
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
         
-        male_names = {
-           Albert Allen Alexander_Alex Andrew Anthony_Tony Anselm Arnold Arthur_Art Artoro Ashur Bael Bishop Brandis Brenden Cade Caden Christopher_Chris Church Clark Colvin Conard Curtis David Dan_Daniel Danse Darrel Dawson David Dennis Dillon Ed_Edgar Eddie_Edward Elijah Farli Finley Galahad Garl Gavil Glade Gunther Gustofer Harry Henry Hernandez Hugh Ian Irving Irwin Ishmael Jacob James Jerry John Jon_Jonathan José Joseph Joshua Keane Kedrick Kenji Killian Kodiak Kyle Larry Lars Launcelot Lazarus Lorenzo Luke Lyle Jacoren Jarvis John Mark_Marcus Matiz Matthew_Matt Max Michael_Mike Nathan Neal Nolan Owyn Patriarcus Patrocolus Paul Phil Platner Reginald Rhombus Rhys_Reese Rico Robert_Rob_Bob Robin Roger Sato Saul Seth Stein Talus Theis Thomas_Tom Todd Tristan Tycho Victor Vinnie Warwick_Worwick Bill_William
-        }
-        female_names = {
-            Abby_Abigail Adela Adelaide Agatha Alice Alya Alyssa Amice Anne Artemis Ashley Aubrey Aveline Beatrice Catherine Cecilia Cindy Diana Elizabeth Emily Gwen Emma Hannah Haylen Isabella Jen_Jennifer Jess_Jessica Katja Kate Katelyn_Catelyn Katrina Kodiak Linda Lisa Lorri Lucia_Lucy Marie_Mary Marcelle Melissa Mia Morgan Natalia Olin Porter Quintana Rachael Reddin Rhys Robin Samantha Sarah Sinthia_Synthia Sherry Sophia Soto Sydney Susan Tara Teagan Theresa Veronica Victoria Vree Warwick_Worwick
-        }
-        from_dynasty_prefix = "of "
-        
-        modifier = bos_culture_modifier
-	allow_looting = yes
-        # Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
-        pat_grf_name_chance = 30
-        mat_grf_name_chance = 10
-        father_name_chance = 25
-        
-        # Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
-        pat_grm_name_chance = 20
-        mat_grm_name_chance = 40
-        mother_name_chance = 5
-    }
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+	}
 }
+
+californian = {
+	graphical_cultures = { westerngfx }
+	
+	boneyard = {
+		graphical_cultures = { westerngfx }
+		
+		color = { 0.8 0.6 0.6 }
+		
+		parent = californian
+		
+		male_names = {
+			#These are all the names of actual boneyarders
+			Alan Albert Caleb Chris Chuck Dugan Gabriel Greg Henry Jake Jon Mac Micheal Miles Percy Razor Sammael Savil Smitty Talius Taylor Zack_Zach
+		}
+		female_names = {
+			Amber Christine Heather Herion Jelissa Jessica Katja Lorraine Lynda_Linda Nancy Nicole Sharon Tina 
+		}
+	}
+	
+	oregonian = {
+		graphical_cultures = { westerngfx }
+		
+		color { 0.8 0.4 0.4 }
+		
+		allow_looting = yes
+		
+		male_names = {
+			#Actual ingame oregonians. Please add more names as you see fit.
+			Aldo Bob Buck Chuck Cornelius Curtis Davin Flick Farrel Frank Gregory_Greg Grisham Joe_Joey_Jo John Joseph Joshua Metzger Slim Smitty Torr Tubby Tyler William_Will Woody
+		}
+		female_names = {
+			Amanda Anna Ardin Barkus Sally Jenny Joanne Lara Maida Miria Rebecca Rose
+		}
+	}
+	
+	californian = {
+		graphical_cultures = { westerngfx }
+		
+		color { 0.7 0.4 0.4 }
+		
+		male_names = {
+			placeholder
+		}
+		female_names = {
+			placeholder
+		}
+	}
+	
+	mariposamutant = { #Might move this into a unique Mutant group
+		graphical_cultures = { westerngfx } #Placeholder
+		
+		color { 0.6 0.7 0.5 }
+		
+		allow_looting = yes
+		
+		male_names = {
+			placeholder
+		}
+		female_names = {
+			placeholder
+		}
+	necropolitan = { #Might move this into a unique ghoul group.
+		graphical_cultures = { westerngfx } #placeholder
+		
+		color { 1.0 1.0 0.2 }
+		
+		male_names = {
+			placeholder #Go for an egyptian theme with this.
+		}
+		female_names = {
+			placeholder
+		}
+	}
+	
+Vault 15 = {
+	graphical_cultures = { westerngfx }
+	
+	khan = {
+		graphical_cultures = { westerngfx }
+		
+		color = { #dark blue or blackish }
+		
+		allow_looting = yes
+		
+		male_names = {
+			placeholder
+		}
+		female_names = {
+			placeholder
+		}
+	}
+	
+	viper = {
+		graphical_cultures = { westerngfx }
+		
+		color = { #dark green }
+		
+		allow_looting = yes
+		
+		male_names = {
+			placeholder
+		}
+		female_names = {
+			placeholder
+		}
+	}
+	
+	jackal = {
+		graphical_cultures = { westerngfx }
+		
+		color = { #dark brown }
+		
+		allow_looting = yes
+		
+		male_names = {
+			placeholder
+		}
+		female_names = {
+			placeholder
+		}
+	}
+	
+vault = {
+	graphical_cultures = { westerngfx }
+	
+	Vault Dweller = {
+		graphical_cultures = { westerngfx }
+		
+		color = { #vault-tec blue }
+		
+		male_names = {
+			placeholder
+		}
+		female_names = {
+			placeholder
+		}
+	}
+	
+	boomer = {
+		graphical_cultures = { westerngfx }
+		
+		color = { #darker blue }
+		
+		male_names = {
+			placeholder
+		}
+		female_names = {
+			placeholder
+		}
+	}
+	
+asian = {
+	graphical_cultures = { westerngfx }
+	
+	chinese = {
+		graphical_cultures = { westerngfx }
+		
+		color = { #red }
+		
+		male_names = {
+			placeholder
+		}
+		female_names = {
+			placeholder
+		}
+	}
+	
+		indian = {
+		graphical_cultures = { westerngfx }
+		
+		color = { #light green }
+		
+		male_names = {
+			placeholder
+		}
+		female_names = {
+			placeholder
+		}
+	}
+
+	shi = {
+		graphical_cultures = { westerngfx }
+		
+		color = { #purple }
+		
+		male_names = {
+			placeholder
+		}
+		female_names = {
+			placeholder
+		}
+	}
+	
+prewar
+	graphical_cultures = { westerngfx }
+	
+	remnant = {
+		graphical_cultures = { westerngfx }
+		
+		color = { #doesn't matter }
+		
+		male_names = {
+			placeholder
+		}
+		female_names = {
+			placeholder
+		}
+	}
+	
+		triggerman = {
+		graphical_cultures = { westerngfx }
+		
+		color = { #off-white }
+		
+		male_names = {
+			placeholder
+		}
+		female_names = {
+			placeholder
+		}
+	}
+	
+	enclave = {
+		graphical_cultures = { westerngfx }
+		
+		color = { #Whatever color makes you think of america/the enclave }
+		
+		allow_looting = yes
+		
+		male_names = {
+			placeholder
+		}
+		female_names = {
+			placeholder
+		}
+	}
+	
+	kings = {
+		graphical_cultures = { westerngfx }
+		
+		color = { #dark purple }
+		
+		male_names = {
+			placeholder
+		}
+		female_names = {
+			placeholder
+		}
+	}
+	
+	ghoul = {
+		graphical_cultures = { westerngfx }
+		
+		color = { #color }
+		
+		male_names = {
+			placeholder
+		}
+		female_names = {
+			placeholder
+		}
+	}
+	
+tribal
+	graphical_cultures = { westerngfx }
+	#Honestly, there are so many of these it is ridiculous. Just google "fallout tribes" and you'll get a list.
+	tribal = {
+		graphical_cultures = { westerngfx }
+		
+		color = { #orange }
+		
+		male_names = {
+			placeholder
+		}
+		female_names = {
+			placeholder
+		}
+	}
+
+euro
+	graphical_cultures = { westerngfx }
+	#Just whatever old-world culture strikes your fancy. You can copy-paste from the base game for some of these.
+		russian = {
+		graphical_cultures = { westerngfx }
+		
+		color = { #dark green }
+		
+		male_names = {
+			placeholder
+		}
+		female_names = {
+			placeholder
+		}
+	}
