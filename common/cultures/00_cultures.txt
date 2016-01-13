@@ -321,3 +321,31 @@ euro
 			placeholder
 		}
 	}
+midwest = {
+    graphical_cultures = { westerngfx }
+    
+    carlord = {
+		graphical_culture = westerngfx
+		color = { 0.4 0.4 0.2 }
+
+		male_name = {
+			Andrew Alexander Anthony Caleb Connor David Daniel Dodge Dillon Ethan Ford Frances George Graham Hart Henry Horace Jacob John Logan Matthew Nathan Nicholas Reed 
+		}
+		female_names = {
+			Abigail Anna Brianna Brooke Chloe Delphine Ella Grace Isabelle Ivy Kayla Mackenzie Matilda Megan Olivia Samantha
+		}
+		from_dynasty_prefix = “of”
+
+		modifier = midwest_culture_modifier
+		allow_looting = yes
+		# chance of male children being names after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 15
+		father_name_chance = 25
+
+		# chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+	}
+}
