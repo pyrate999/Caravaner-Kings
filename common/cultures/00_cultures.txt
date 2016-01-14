@@ -44,6 +44,14 @@ californian = {
 		female_names = {
 			Amber Christine Heather Herion Jelissa Jessica Katja Lorraine Lynda_Linda Nancy Nicole Sharon Tina 
 		}
+		
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+        
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
 	}
 	
 	oregonian = {
@@ -60,6 +68,14 @@ californian = {
 		female_names = {
 			Amanda Anna Ardin Barkus Sally Jenny Joanne Lara Maida Miria Rebecca Rose
 		}
+
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+        
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
 	}
 	
 	californian = {
@@ -73,6 +89,14 @@ californian = {
 		female_names = {
 			placeholder
 		}
+	
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+        
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
 	}
 	
 	mariposamutant = { #Might move this into a unique Mutant group
@@ -88,6 +112,15 @@ californian = {
 		female_names = {
 			placeholder
 		}
+	
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+        
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+	}
 	necropolitan = { #Might move this into a unique ghoul group.
 		graphical_cultures = { westerngfx } #placeholder
 		
@@ -99,6 +132,14 @@ californian = {
 		female_names = {
 			placeholder
 		}
+	
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+        
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
 	}
 	
 Vault 15 = {
@@ -117,6 +158,14 @@ Vault 15 = {
 		female_names = {
 			placeholder
 		}
+	
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+        
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
 	}
 	
 	viper = {
@@ -132,6 +181,14 @@ Vault 15 = {
 		female_names = {
 			placeholder
 		}
+	
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+        
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
 	}
 	
 	jackal = {
@@ -147,6 +204,14 @@ Vault 15 = {
 		female_names = {
 			placeholder
 		}
+	
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+        
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
 	}
 	
 vault = {
@@ -163,6 +228,14 @@ vault = {
 		female_names = {
 			placeholder
 		}
+	
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+        
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
 	}
 	
 	boomer = {
@@ -176,6 +249,14 @@ vault = {
 		female_names = {
 			placeholder
 		}
+	
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+        
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
 	}
 	
 asian = {
@@ -192,6 +273,14 @@ asian = {
 		female_names = {
 			placeholder
 		}
+	
+		pat_grf_name_chance = 40
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+        
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
 	}
 	
 		indian = {
@@ -205,6 +294,14 @@ asian = {
 		female_names = {
 			placeholder
 		}
+	
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+        
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
 	}
 
 	shi = {
@@ -218,6 +315,14 @@ asian = {
 		female_names = {
 			placeholder
 		}
+	
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+        
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
 	}
 	
 prewar
@@ -234,6 +339,14 @@ prewar
 		female_names = {
 			placeholder
 		}
+	
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+        
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
 	}
 	
 		triggerman = {
@@ -247,6 +360,14 @@ prewar
 		female_names = {
 			placeholder
 		}
+	
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+        
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
 	}
 	
 	enclave = {
@@ -262,6 +383,14 @@ prewar
 		female_names = {
 			placeholder
 		}
+	
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+        
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
 	}
 	
 	kings = {
@@ -275,6 +404,14 @@ prewar
 		female_names = {
 			placeholder
 		}
+	
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+        
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
 	}
 	
 	ghoul = {
@@ -288,6 +425,14 @@ prewar
 		female_names = {
 			placeholder
 		}
+	
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+        
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
 	}
 	
 tribal
@@ -304,6 +449,14 @@ tribal
 		female_names = {
 			placeholder
 		}
+	
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+        
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
 	}
 
 euro
@@ -315,11 +468,19 @@ euro
 		color = { #dark green }
 		
 		male_names = {
-			placeholder
+		Afanasiy Alexandr_Alexander Alexei_Alexis Andrei_Andrew Boris Briachislav_Bretislaus Daniil_Daniel Davyd_David Demid Dmitriy_Demetrius Dobrynia Fedot_Theodat Feodor_Theodore Gavriil_Gabriel Gleb Grigoriy_Gregory Iakov_Jacob Igor Iliya Ingvar_Ingvar Ivan_John Iziaslav Kirill_Cyril Konstantin_Constantine Koz'ma_Cosma Lev_Leo Matfei_Matthew Mikhail_Michael Mitrofan Mstislav_Mstislav Nikita Oleg Pavel_Paul Putiata Radoslav Rodislav Rogvolod Roman_Roman Rostislav Rurik_Rurik Ruslan Simeon_Simon Stanislav_Stanislav Stepan_Stephen Sudislav Svetozar Sviatopolk_Svatopluk Sviatoslav_Sviatoslav Terentiy Trifon Vasiliy_Basil Vasilko Viacheslav Vladimir_Vladimir Vladislav Voislav Volodar Vseslav Vsevolod Vyshata Vysheslav Yaropolk Yaroslav_Jaroslav Yefimiy Yelisey Yemelyan_Emil Yeremey Yevstafiy Yuriy_George
 		}
 		female_names = {
-			placeholder
+			Agafya_Agatha Agrafena Alexandra Anastasia_Anastasia Anna_Anna Boleslava Darya Dobrava Dobronega Dobroslava Yefimia_Euphemia Yefrosinia_Euphrosyne Yekaterina_Catherine Yelizaveta_Elisabeth Yevdokia Yevpraxia Feodora_Theodora Feodosia_Theodosia Fevronia Gorislava Gradislava Gremislava Irina_Irene Xenia Liubava Liudmila Malfrida Malusha Maria_Maria Marina Olena_Helen Olga Pereyaslava Praskovya Praxida Prebrana Predslava Premyslava Pribislava Rogneda Rostislava Sbyslava Sofia_Sophia Sviatoslava Tatyana Ulita Ulyana Varvara Vasilisa Veleslava Verkhoslava Vseslava Viacheslava Yaroslava Zabava Zvenislava
 		}
+	
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+        
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
 	}
 midwest = {
     graphical_cultures = { westerngfx }
@@ -328,7 +489,7 @@ midwest = {
 		graphical_culture = westerngfx
 		color = { 0.4 0.4 0.2 }
 
-		male_name = {
+		male_names = {
 			Andrew Alexander Anthony Caleb Connor David Daniel Dodge Dillon Ethan Ford Frances George Graham Hart Henry Horace Jacob John Logan Matthew Nathan Nicholas Reed 
 		}
 		female_names = {
@@ -349,3 +510,123 @@ midwest = {
 		mother_name_chance = 5
 	}
 }
+
+commonwealth = {
+	graphical_culture = { westerngfx }
+	
+	commonwealth = {
+		graphical_cultures = { westerngfx }
+		
+		color = { 0.6 0.8 1.0 }
+		
+		male_names = {
+			placeholder
+		}
+		
+		female_names = {
+			placeholder
+		}
+		from_dynasty_prefix = "of"
+		
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+        
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+	}
+	
+	diamondcity = {
+		graphical_cultures = { westerngfx }
+		
+		color = { 0.3 0.4 0.4 }
+		
+		male_names = {
+			placeholder
+		}
+		
+		female_names = {
+			placeholder
+		}
+		from_dynasty_prefix = "of"
+		
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+        
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+	}
+	
+	placeholder
+			graphical_cultures = { westerngfx }
+		
+		color = { 0.0 0.0 0.0 }
+		
+		male_names = {
+			placeholder
+		}
+		
+		female_names = {
+			placeholder
+		}
+		from_dynasty_prefix = "of"
+		
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+        
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+	}
+}
+
+institute = {
+	institute = {
+		graphical_cultures = { westerngfx }
+		
+		color = { 0.8 0.3 0.1 }
+		
+		male_names = {
+			placeholder
+		}
+		
+		female_names = {
+			placeholder
+		}
+		from_dynasty_prefix = "of"
+		
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+        
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 50
+		mother_name_chance = 5
+	}
+	
+	synth = {
+		graphical_cultures = { westerngfx }
+		
+		color = { 0.8 0.7 0.7 }
+		
+		male_names = {
+			placeholder
+		}
+		
+		female_names = {
+			placeholder
+		}
+		from_dynasty_prefix = "of"
+		
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+        
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+	}
