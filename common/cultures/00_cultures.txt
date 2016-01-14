@@ -148,7 +148,7 @@ Vault 15 = {
 	khan = {
 		graphical_cultures = { westerngfx }
 		
-		color = { #dark blue or blackish }
+		color = { 0.0 0.0 0.4 }
 		
 		allow_looting = yes
 		
@@ -171,7 +171,7 @@ Vault 15 = {
 	viper = {
 		graphical_cultures = { westerngfx }
 		
-		color = { #dark green }
+		color = { 0.0 0.4 0.2 }
 		
 		allow_looting = yes
 		
@@ -194,7 +194,7 @@ Vault 15 = {
 	jackal = {
 		graphical_cultures = { westerngfx }
 		
-		color = { #dark brown }
+		color = { 0.3 0.2 0.2 }
 		
 		allow_looting = yes
 		
@@ -220,7 +220,7 @@ vault = {
 	Vault Dweller = {
 		graphical_cultures = { westerngfx }
 		
-		color = { #vault-tec blue }
+		color = { 0.3 0.5 0.7 }
 		
 		male_names = {
 			placeholder
@@ -241,7 +241,7 @@ vault = {
 	boomer = {
 		graphical_cultures = { westerngfx }
 		
-		color = { #darker blue }
+		color = { 0.2 0.3 0.5 }
 		
 		male_names = {
 			placeholder
@@ -265,7 +265,7 @@ asian = {
 	chinese = {
 		graphical_cultures = { westerngfx }
 		
-		color = { #red }
+		color = { 0.3 0.0 0.0 }
 		
 		male_names = {
 			placeholder
@@ -286,7 +286,7 @@ asian = {
 		indian = {
 		graphical_cultures = { westerngfx }
 		
-		color = { #light green }
+		color = { 0.4 1.0 0.4 }
 		
 		male_names = {
 			placeholder
@@ -307,7 +307,7 @@ asian = {
 	shi = {
 		graphical_cultures = { westerngfx }
 		
-		color = { #purple }
+		color = { 0.4 0.0 0.2 }
 		
 		male_names = {
 			placeholder
