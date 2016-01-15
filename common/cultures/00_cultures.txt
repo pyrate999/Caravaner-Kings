@@ -630,11 +630,38 @@ institute = {
 		mat_grm_name_chance = 40
 		mother_name_chance = 5
 	}
-graphical_culture = northernnativegfx
-		second_graphical_culture = muslimgfx # Fallback type
-		secondary_event_pictures = bedouin_arabic
+	
+canadian = {
+	graphical_cultures = { westerngfx }
 
-		color = { 0.65 0.75 0.9 }
+	Ronto = {
+		graphical_culture = westerngfx
+		color = { 0.25 0.50 0.1 }
+
+		male_names = {
+			Albert Alexander Alan Anthony Acer Brant Bennett Bill_William Bryce Carrey Charles_Charles Claude Castor Clive Churchill Dominick Dalton Evan Edgar George Hudson Hamilton Hart_Arthur Horton Harold Jarvis Kirk Kevin Lawrence_Lawrence Leonard Lennox Lloyd Lucas_Luke Macdonald McGee Malcolm Mitchell Matthew_Matthew Neil Nelligan Owen Rupert Ronald Spencer Trevor Tim_Timothy Thomas Winston York
+		}
+		female_names = {
+			Alexandra Avril Alanis Ann_Anna Bernice Bonnie Clair Charlotte Claudia Dominia Eve Georgia Ive Judith Kelly Marie_Mary Morwen Madge Rose Shania Tabitha Ursula Victoria
+		}
+
+		from_dynasty_prefix = “of”
+
+		modifier = default_culture_modifier
+
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+		
+
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 30
+		mother_name_chance = 5
+	}
+	inuits = {	
+		graphical_culture = westerngfx
+
+		color = { 0.6 0.7 0.9 }
 
 		male_names = {
 			Aariak Aassanaaq Aglakti Agloolik Aipalovik Aippaq Akkikiktok Akkituyok Aklaq Akluitok Akna Akrittok Amaguq Amak Amaqjuaq Amaruq Ammagaruqnik Anernerk Anik Annakpok Anuniaq Anuun Apaata Aput Aputi Aqakuktuq Aqillutaq Aqpalibaaqtuq Aquutaq Aquyittuq Arjalinerk Arnauyq Arrluk Asuilaak Ataciara Atanarjuat Atiqtalaaq Atuqtuaq Aujaq Aviqming Chugiak Cikuq Corazon Desna Ek Eska Hey Ikiaq Ila Ilannaq Iluak Iluq Innugati IÒuksuk Inungoark Iqniq Irniq Issorartuyok Itigaituk Kakortok Kanguq Kanosak Kapik Kappianartok Karpok Kaskae Kassuq Kataktuaq Kattituyok Kayuqtuq Keedtapeck Kesuk Kilaun Kinalik Kissarviarsuk Koko Kumaglak Kunik Kunikpaa Kunikpok Kunwaktok Kussuyok Kuvageegai Maguyuk Malik Mangokpok Maniitok Manirak Massak Mequssuk Nannuraluk Nanouk Nanuq Nasak Nasamiituuq Natsiq Nauja Nerromiktok Nini Nippikortuyok Nirliq Noatak Nukilik Nukka Nuniq Nuvuk Oki Oomailiq Pakak Pamiuq Pattangayok Patuktuq Pauloosie Pekartok Petuwaq Piaktok Pikatti Piktaungitok Pimniq Piqqaluyungmik Pittiulak Pukajaak Pukak Pukiq Putyuk Qajak Qammutiq Qamut Qannik Qaumaniq Qausiqtuk Qeorvik Qimmiabruk Qimmiq Quamaniq Qulitalik Quvianuq Saghani Sauri Shesh Shila Shtiya Sialuk Sighna Siku Silaluk Siluk Sirmiq Sivoy Sivuugun Suluk Takiyok Taktuq Takubvik Taliriktug Tanaraq Tapeesa Tikaani Tingenek Tipvigut Tiqriganiannig Tiquana Tootega Tukkuyummavungga Tuktu Tulimak Tulimaq Tulugaq Tunerk Tungajuaq Tupilek Tupiq Tuuq Ugalik Uglu Uiritsaktak Ujurak Ukiuk Ukluk Ulva Unalaq Unnuk Usuiituk Yuralria 
@@ -659,3 +686,4 @@ graphical_culture = northernnativegfx
 
 		modifier = default_culture_modifier
 	}
+}
