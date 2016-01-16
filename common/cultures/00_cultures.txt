@@ -38,11 +38,10 @@ californian = {
 		parent = californian
 		
 		male_names = {
-			#These are all the names of actual boneyarders
-			Alan Albert Caleb Chris Chuck Dugan Gabriel Greg Henry Jake Jon Mac Micheal Miles Percy Razor Sammael Savil Smitty Talius Taylor Zack_Zach
+			Alan Albert Barry Bill Calder Caleb Chris Chuck Dane Dugan Edward Easton Francis_Frank Frederick_Fred Gabriel Gideon Greg Henry Harry Isaac Igor Jake Jeremiah Jon Karl_Carl Kurt_Curt Leonard Layton Mac Micheal Miles Moore Nathan_Nate Nicholas_Nick Noah Neil Nelson Nico Nigel Percy Pablo Page Palmer Parker Patrick Paul Quaid Quato Quinn Razor Ronald_Ron Reggy_Reginald Raleigh_Riley Randall Sammael_Sam_Samuel Savil Smitty Talbot Talius Taylor Vaughn Vincent Zack_Zach Zark
 		}
 		female_names = {
-			Amber Christine Heather Herion Jelissa Jessica Katja Lorraine Lynda_Linda Nancy Nicole Sharon Tina 
+			Abby_Abigail Abrianna Adalina Amber Bethany_Beth Bonny Christine Cathy_Kathy Debora Dana Edna Ethel Francine Heather Herion Hannah Isabel_Ysabel Ida Jain Jelissa Jessica Katja Kate_Katherine_Catherine_Cait_Katey Laura Lorraine Lynda_Linda Lucy Marcy Mary Nancy Nicole Olivia Odette Paige Phoenix Rachel Raven Rita Sharon Shasha Tina Tabitha Viola Violet Wanda Winona Xenia Zoe_Zoey
 		}
 		
 		pat_grf_name_chance = 30
@@ -62,11 +61,10 @@ californian = {
 		allow_looting = yes
 		
 		male_names = {
-			#Actual ingame oregonians. Please add more names as you see fit.
-			Aldo Bob Buck Chuck Cornelius Curtis Davin Flick Farrel Frank Gregory_Greg Grisham Joe_Joey_Jo John Joseph Joshua Metzger Slim Smitty Torr Tubby Tyler William_Will Woody
+			Aldo Abel Albert_Al Bob Buck Chuck Cornelius Curtis David Davin Dwight Ellis Erick_Eric_Erik Flick Farrel Frank Gregory_Greg Grisham Henry Howard Ivan Ike Isaac_Issac James Joe_Joey_Jo John Joseph Joshua King Kyle Kevan Kelvin Kurtis_Curtis Luke_Lucas Levern Lionel Leland Metzger Michael Norris Nick_Nicholas Normand Orville Oliver Otis Paul Perry Pierre Peter Patrick Quinton Roy Ricky_Richard_Dick_Rick Ryan Robert_Bobby_Rob Reid Slim Smitty Stuart Samuel_Sam_Sammael Steve Todd Ted_Theodore Tyrone Tony Torr Tubby Tyler Ulysses Vince_Vincent Vernon Victor Warren William_Will_Bill Ward Wayne Woody Xavier Zach_Zack_Zachary
 		}
 		female_names = {
-			Amanda Anna Ardin Barkus Sally Jenny Joanne Lara Maida Miria Rebecca Rose
+			Amanda Anna Anne Alice Anita Ardin Bessie Bridget Beulah Becky Barkus Carlene Collete Cherri Corine Celia Debby Daisy Diane Darla Elma Eunice Elissa Ericka_Erica_Erika Ella Francesca Frankie Florine Felicia Gertrude Gayla Gerry Geneva Ginger Henrietta Helene Heather Hazel Imogene Isabel_Ysabel Iris Janet Jenny Joanne Jewel Janna June Kimberlee Kathryn_Katherine_Catherine Kathy_Cathy Karen Karol_Carol Laura Lenore Lynda Luann Laurel Liza Lara Maida Miria Margaret May Maryanne Marilyn Muriel Marie Norma Nettie Nancy Ora Patricia Patty_Pattie Pearl Polly Queen Rose Ramona Rebekah_Rebecca Renee Roxie Sally Shari_Sharee Sheila Susanne Suzan_Susan Teri_Terry Tracy Tana Tara Ursula Velma Verna Violet Venita Winona Wilma Wendy Wanda Winifred Yvonne Yolanda Zelda Zoe_Zoey
 		}
 
 		pat_grf_name_chance = 30
@@ -84,10 +82,10 @@ californian = {
 		color { 0.7 0.4 0.4 }
 		
 		male_names = {
-			placeholder
+			Andrew_Andy Avery Alexander_Alex Butch Curtis Dan_Daniel Daren George Gizmo Gunther Gustofer Harold Hernandez Ian Ismarc Irwin Izo Jake_Jacob Jarvis John_Jon Justin Kalnor Kenji Kenny_Ken_Kenneth Killian Lars Lemmy Leon Leone Luke_Lucas Mat_Matthew Mitch Neal Phil_Phillip Razlo Richard_Rick_Dick Robert_Bob Rutger Saul Seth Sid Smith Smitty Tony Vance Victor Vinnie_Vincent William_Bill
 		}
 		female_names = {
-			placeholder
+			Agatha Beth Cleo Demetre Jasmine Katrina Keri Marcy Martha Sherry Sinthia Trish
 		}
 	
 		pat_grf_name_chance = 30
@@ -468,7 +466,7 @@ euro
 		color = { #dark green }
 		
 		male_names = {
-		Afanasiy Alexandr_Alexander Alexei_Alexis Andrei_Andrew Boris Briachislav_Bretislaus Daniil_Daniel Davyd_David Demid Dmitriy_Demetrius Dobrynia Fedot_Theodat Feodor_Theodore Gavriil_Gabriel Gleb Grigoriy_Gregory Iakov_Jacob Igor Iliya Ingvar_Ingvar Ivan_John Iziaslav Kirill_Cyril Konstantin_Constantine Koz'ma_Cosma Lev_Leo Matfei_Matthew Mikhail_Michael Mitrofan Mstislav_Mstislav Nikita Oleg Pavel_Paul Putiata Radoslav Rodislav Rogvolod Roman_Roman Rostislav Rurik_Rurik Ruslan Simeon_Simon Stanislav_Stanislav Stepan_Stephen Sudislav Svetozar Sviatopolk_Svatopluk Sviatoslav_Sviatoslav Terentiy Trifon Vasiliy_Basil Vasilko Viacheslav Vladimir_Vladimir Vladislav Voislav Volodar Vseslav Vsevolod Vyshata Vysheslav Yaropolk Yaroslav_Jaroslav Yefimiy Yelisey Yemelyan_Emil Yeremey Yevstafiy Yuriy_George
+		Afanasiy Alexandr_Alexander_Alex Alexei_Alexis Andrei_Andrew Boris Briachislav_Bretislaus Daniil_Daniel Davyd_David Demid Dmitriy_Demetrius Dobrynia Fedot_Theodat Feodor_Theodore Gavriil_Gabriel Gleb Grigoriy_Gregory Iakov_Jacob Igor Iliya Ingvar_Ingvar Ivan_John Iziaslav Kirill_Cyril Konstantin_Constantine Koz'ma_Cosma Lev_Leo Matfei_Matthew Mikhail_Michael Mitrofan Mstislav_Mstislav Nikita Oleg Pavel_Paul Putiata Radoslav Rodislav Rogvolod Roman_Roman Rostislav Rurik_Rurik Ruslan Simeon_Simon Stanislav_Stanislav Stepan_Stephen Sudislav Svetozar Sviatopolk_Svatopluk Sviatoslav_Sviatoslav Terentiy Trifon Vasiliy_Basil Vasilko Viacheslav Vladimir_Vladimir Vladislav Voislav Volodar Vseslav Vsevolod Vyshata Vysheslav Yaropolk Yaroslav_Jaroslav Yefimiy Yelisey Yemelyan_Emil Yeremey Yevstafiy Yuriy_George
 		}
 		female_names = {
 			Agafya_Agatha Agrafena Alexandra Anastasia_Anastasia Anna_Anna Boleslava Darya Dobrava Dobronega Dobroslava Yefimia_Euphemia Yefrosinia_Euphrosyne Yekaterina_Catherine Yelizaveta_Elisabeth Yevdokia Yevpraxia Feodora_Theodora Feodosia_Theodosia Fevronia Gorislava Gradislava Gremislava Irina_Irene Xenia Liubava Liudmila Malfrida Malusha Maria_Maria Marina Olena_Helen Olga Pereyaslava Praskovya Praxida Prebrana Predslava Premyslava Pribislava Rogneda Rostislava Sbyslava Sofia_Sophia Sviatoslava Tatyana Ulita Ulyana Varvara Vasilisa Veleslava Verkhoslava Vseslava Viacheslava Yaroslava Zabava Zvenislava
