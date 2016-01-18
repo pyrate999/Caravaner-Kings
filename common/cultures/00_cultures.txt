@@ -105,10 +105,10 @@ californian = {
 		allow_looting = yes
 		
 		male_names = {
-			placeholder
+			Abel Angel Attis Barry Bear Beatrice Bert Betty Blackjack Bob Char Chauncey Chris_Christopher Chuck Cuddles Daggarth Davison Dolkarn Drew Elmo Erkal Fawkes Flip Francis_Frank Gammorin Gary Gond Grimm Grundel Grunge Harry Hort James Jaunita Jim Joe_Joey_Jo John_Jon Jugg Justin Keats Keene Krupper Kurt Kyle Larry Lenny Lesley Lester Lily Lou Marcus Melchior Mike Neil_Neal Rae Reine Renfield Sally Shale Sean Sebastian Seraine Sue Tabitha Terry Thelma Therax Timothy Toccamatta Toni_Tony Troy Tyche Uthern Vincent Viscious Zaius
 		}
 		female_names = {
-			placeholder
+			Abel Angel Attis Barry Bear Beatrice Bert Betty Blackjack Bob Char Chauncey Chris_Christopher Chuck Cuddles Daggarth Davison Dolkarn Drew Elmo Erkal Fawkes Flip Francis_Frank Gammorin Gary Gond Grimm Grundel Grunge Harry Hort James Jaunita Jim Joe_Joey_Jo John_Jon Jugg Justin Keats Keene Krupper Kurt Kyle Larry Lenny Lesley Lester Lily Lou Marcus Melchior Mike Neil_Neal Rae Reine Renfield Sally Shale Sean Sebastian Seraine Sue Tabitha Terry Thelma Therax Timothy Toccamatta Toni_Tony Troy Tyche Uthern Vincent Viscious Zaius
 		}
 	
 		pat_grf_name_chance = 30
@@ -125,10 +125,10 @@ californian = {
 		color { 1.0 1.0 0.2 }
 		
 		male_names = {
-			placeholder #Go for an egyptian theme with this.
+			Aanekhtou Abaalisaba Akhenaton Amenhotep Amhose Ammit Amun Anput Anubis Anuket Apophis Aten Bek Bes Bakenranef Buneb Cheops Chephren Dedumose Djedefhor Djehutimose Djehuti Duaenre Geb Hakor Hemaka Harkhebi Hor Horus Huy Imhotep Ini Intef Iset Ka Kakhent Khepri Khnum Khnumhotep Khonsu Mafdet Menes Menkheperre Mentuhotep Meru Muthis Nakht Narmer Nebamun Necho Nekhbet Osiris Osorkon Paser Pashedu Pepi Prehotep Ptah Ptahhotep Ptahmose Ptolemy Qa'a Qar Ra Rameses Ramesses Ramessu Ramses Sebkay Semqen Set Seti Sharek Shu Sobek Taharqa Tantamani Thutmose Thoth Tutankhamon Unas Userkare Wadjmose Wazad Yakareb Yuya Zoser
 		}
 		female_names = {
-			placeholder
+			Aat Ahaneith Ahmose Amenemopet Amenia Arsinoe Artakama Aya Bast Baletwernel Behenu Berenice Betrest Cleopatra Djefatnabti Eurydice Gilukhipa Hapi Hathor Hatshepsut Heket Hemetre Henutmehyt Henutsen Herneith Hetepheres Ieret Ineni Iput Iset Isis Karomama Kebechet Khensa Khenut Khuit Kiya Lysandra Ma'at Maatkare Maya Menhet Mentuhotep Menwi Meresankh Meritamen Meritites Merti Mutnedjmet Mutnofret Naparaye Nauny Nebetah Nedjeftet Neferhetepes Nefertari Nefertiti Neferu Neith Nephthys Neskhons Nofret Nut Pageti Pebatjma Peksater Pyhia Qalhata Rekhetre Satiah Scota Sekhmakh Sekhmet Serqet Seshat Tawaret Tefnut Tyti Wadj
 		}
 	
 		pat_grf_name_chance = 30
@@ -151,10 +151,10 @@ Vault 15 = {
 		allow_looting = yes
 		
 		male_names = {
-			placeholder
+			Anders Albert_Al Bitter-Root Boran Chance Cade Caleb Darion Danny Donald Ernest Ed_Edgar Feargus Ford Garl Gary Garth Hamilton Hart Jack Jerry Keane Kolton Leland Manny Mac Micheal Oscar Oliver Orton Petrox Phil Percy Patrick Regis Reginald Robert_Bob Steven Samuel_Sam_Sammael Sean Thompson Tom Tony Vance Wilburt Zach_Zack_Zachary
 		}
 		female_names = {
-			placeholder
+			Alya Dalia Diana Diane Gwen Jessup Karla Melissa Tolya
 		}
 	
 		pat_grf_name_chance = 30
